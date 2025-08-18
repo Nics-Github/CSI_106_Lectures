@@ -1,0 +1,45 @@
+project:
+  type: website
+  output-dir: ./docs
+  render: 
+    - lectures
+    - index.qmd
+    - about.qmd
+    #- Getting_started.qmd
+# building the website from the build pane does not work. 
+
+output:
+  html_document:
+    toc: yes
+    toc_float: yes
+    toc_depth: 2
+    theme: lumen
+    highlight: tango
+    df_print: paged
+    lib_dir: site_libs
+    self_contained: no
+    
+# All icons were obtained from https://icons.getbootstrap.com/
+website:   
+  title: "CSI 106 Lecutres"
+  #favicon: /gfx/220.png
+  
+  navbar:
+    
+    right:
+    - text: lectures
+      href: index.qmd
+  
+  page-footer:
+    right: 
+    - text: credits
+      href: credits.qmd
+
+format:
+  html:
+    theme: lux
+    css: styles.css
+    toc: true
+
+
+

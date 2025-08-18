@@ -1,0 +1,72 @@
+---
+title: "Getting Started"
+author: "Schwab"
+format: 
+  revealjs:
+    theme: serif
+editor: visual
+---
+
+## First Day
+
+Welcome to CSI 106
+
+We will be coding from scratch. I assume that you all have little to no background in programming.
+
+## About me
+
+My name is Nicholas Schwab.
+
+I'm studying Data Science as grad student at UT Austin.
+
+I used to be in the Math Department here and lectured Data Science at Smith.
+
+I like Rock Climbing and hanging with my family.
+
+I live in Easthampton.
+
+## What will we do? 
+
+We will build tic-tac-toe from first principles.
+
+I got this idea from some colleagues at Smith.
+
+## But can't AI build tic-tac-toe really fast? 
+
+Yes. Let's try it with [Gemini](https://gemini.google.com/) 
+
+( Log out HCC)
+
+## Complicated things
+
+AI still give wrong answers when working with more complicated projects. 
+
+You will still have to fix bugs in AI. 
+
+You will come across code that is complicated and read/edit it. 
+
+We will see how AI has trouble during the semester. 
+
+## I'm not going to stop you
+
+As you complete assignments you must cite your sources. That Includes AI. 
+
+You'll be hurting yourself in the long run. 
+
+And we have internet free tests.
+
+## Why Python
+
+Python is super popular right now. 
+
+Its a friendlier language, which is nice for beginners. 
+
+## Where is python used
+
+[Google, Netflix, Instagram, Spotify, Dropbox, Uber, Amazon, Reddit. ](https://www.learnenough.com/blog/10-Companies-Using-Python-In-2023-&-Why-It's-Their-Go-To#:~:text=Python's%20big%20data%20functionality%20is,frameworks%2C%20including%20Django%20and%20Flask.)
+
+## Working together
+
+In this class you'll have to work together on projects. 
+
+
