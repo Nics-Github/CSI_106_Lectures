@@ -1,0 +1,107 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Lectures from MTH CSI 106",
+    "section": "",
+    "text": "These are the lectures from CSI 106, you can also find the direct links via Canvas.\nIntroduction"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "This is the lecture site for CSI 106"
+  },
+  {
+    "objectID": "lectures/Introduction.html",
+    "href": "lectures/Introduction.html",
+    "title": "Getting Started",
+    "section": "",
+    "text": "Welcome to CSI 106\nWe will be coding from scratch. I assume that you all have little to no background in programming."
+  },
+  {
+    "objectID": "lectures/Introduction.html#first-day",
+    "href": "lectures/Introduction.html#first-day",
+    "title": "Getting Started",
+    "section": "First Day",
+    "text": "First Day\nWelcome to CSI 106\nWe will be coding from scratch. I assume that you all have little to no background in programming."
+  },
+  {
+    "objectID": "lectures/Introduction.html#about-me",
+    "href": "lectures/Introduction.html#about-me",
+    "title": "Getting Started",
+    "section": "About me",
+    "text": "About me\nMy name is Nicholas Schwab.\nI’m studying Data Science as grad student at UT Austin.\nI used to be in the Math Department here and lectured Data Science at Smith.\nI like Rock Climbing and biking and hanging with my family.\nI live in Easthampton."
+  },
+  {
+    "objectID": "lectures/Introduction.html#what-will-we-do",
+    "href": "lectures/Introduction.html#what-will-we-do",
+    "title": "Getting Started",
+    "section": "What will we do?",
+    "text": "What will we do?\nWe will build tic-tac-toe from first principles.\nI got this idea from some colleagues at Smith.\n\ntic tac toe"
+  },
+  {
+    "objectID": "lectures/Introduction.html#but-cant-ai-build-tic-tac-toe-really-fast",
+    "href": "lectures/Introduction.html#but-cant-ai-build-tic-tac-toe-really-fast",
+    "title": "Getting Started",
+    "section": "But can’t AI build tic-tac-toe really fast?",
+    "text": "But can’t AI build tic-tac-toe really fast?\nYes. Let’s try it with Gemini\n( Log out HCC)"
+  },
+  {
+    "objectID": "lectures/Introduction.html#complicated-things",
+    "href": "lectures/Introduction.html#complicated-things",
+    "title": "Getting Started",
+    "section": "Complicated things",
+    "text": "Complicated things\n\nA human is still needed for new or complicated projects.\nYou will still have to fix bugs in AI.\nYou will come across code that is complicated and read/edit it.\nWe will see how AI has trouble during the semester."
+  },
+  {
+    "objectID": "lectures/Introduction.html#im-not-going-to-stop-you",
+    "href": "lectures/Introduction.html#im-not-going-to-stop-you",
+    "title": "Getting Started",
+    "section": "I’m not going to stop you",
+    "text": "I’m not going to stop you\nAs you complete assignments you must cite your sources. That Includes AI.\nYou’ll be hurting yourself in the long run.\nAnd we have internet free tests."
+  },
+  {
+    "objectID": "lectures/Introduction.html#why-python",
+    "href": "lectures/Introduction.html#why-python",
+    "title": "Getting Started",
+    "section": "Why Python",
+    "text": "Why Python\nPython is super popular right now.\nIts a friendlier language, which is nice for beginners."
+  },
+  {
+    "objectID": "lectures/Introduction.html#where-is-python-used",
+    "href": "lectures/Introduction.html#where-is-python-used",
+    "title": "Getting Started",
+    "section": "Where is python used",
+    "text": "Where is python used\nGoogle, Netflix, Instagram, Spotify, Dropbox, Uber, Amazon, Reddit."
+  },
+  {
+    "objectID": "lectures/Introduction.html#working-together",
+    "href": "lectures/Introduction.html#working-together",
+    "title": "Getting Started",
+    "section": "Working together",
+    "text": "Working together\nIn this class you’ll have to work together on assignments."
+  },
+  {
+    "objectID": "lectures/Introduction.html#but-ai-can-do-almost-everything",
+    "href": "lectures/Introduction.html#but-ai-can-do-almost-everything",
+    "title": "Getting Started",
+    "section": "But AI can do almost everything?",
+    "text": "But AI can do almost everything?\nYes, but you wont learn if you use AI.\nLet’s try it with Gemini"
+  },
+  {
+    "objectID": "lectures/Introduction.html#mid-class-break",
+    "href": "lectures/Introduction.html#mid-class-break",
+    "title": "Getting Started",
+    "section": "Mid class break",
+    "text": "Mid class break\n\nThis Class is Long\nWe’ll have a break midclass.\nStand up stretch, get some water, look at your phone\nPhones away in Class (after logging in)."
+  },
+  {
+    "objectID": "lectures/Introduction.html#questions-or-feelings",
+    "href": "lectures/Introduction.html#questions-or-feelings",
+    "title": "Getting Started",
+    "section": "Questions or Feelings?",
+    "text": "Questions or Feelings?"
+  }
+]

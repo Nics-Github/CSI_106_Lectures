@@ -4,3 +4,5 @@ author: "Nic Schwab"
 ---
 
 These are the lectures from CSI 106, you can also find the direct links via Canvas. 
+
+[Introduction](./lectures/Introduction.qmd)

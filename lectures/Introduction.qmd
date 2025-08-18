@@ -21,52 +21,64 @@ I'm studying Data Science as grad student at UT Austin.
 
 I used to be in the Math Department here and lectured Data Science at Smith.
 
-I like Rock Climbing and hanging with my family.
+I like Rock Climbing and biking and hanging with my family.
 
 I live in Easthampton.
 
-## What will we do? 
+## What will we do?
 
 We will build tic-tac-toe from first principles.
 
 I got this idea from some colleagues at Smith.
 
-## But can't AI build tic-tac-toe really fast? 
+![tic tac toe](/images/tictactoe.svg){fig-align="center"}
 
-Yes. Let's try it with [Gemini](https://gemini.google.com/) 
+## But AI can do almost everything?
 
-( Log out HCC)
+Yes, but you wont learn if you use AI.
+
+Let's try it with [Gemini](https://gemini.google.com/)
 
 ## Complicated things
 
-AI still give wrong answers when working with more complicated projects. 
+-   A human is still needed for new or complicated projects.
 
-You will still have to fix bugs in AI. 
+-   You will still have to fix bugs in AI.
 
-You will come across code that is complicated and read/edit it. 
+-   You will come across code that is complicated and read/edit it.
 
-We will see how AI has trouble during the semester. 
+-   We will see how AI has trouble during the semester.
 
 ## I'm not going to stop you
 
-As you complete assignments you must cite your sources. That Includes AI. 
+As you complete assignments you must cite your sources. That Includes AI.
 
-You'll be hurting yourself in the long run. 
+You'll be hurting yourself in the long run.
 
 And we have internet free tests.
 
 ## Why Python
 
-Python is super popular right now. 
+Python is super popular right now.
 
-Its a friendlier language, which is nice for beginners. 
+Its a friendlier language, which is nice for beginners.
 
 ## Where is python used
 
-[Google, Netflix, Instagram, Spotify, Dropbox, Uber, Amazon, Reddit. ](https://www.learnenough.com/blog/10-Companies-Using-Python-In-2023-&-Why-It's-Their-Go-To#:~:text=Python's%20big%20data%20functionality%20is,frameworks%2C%20including%20Django%20and%20Flask.)
+[Google, Netflix, Instagram, Spotify, Dropbox, Uber, Amazon, Reddit.](https://www.learnenough.com/blog/10-Companies-Using-Python-In-2023-&-Why-It's-Their-Go-To#:~:text=Python's%20big%20data%20functionality%20is,frameworks%2C%20including%20Django%20and%20Flask.)
 
 ## Working together
 
-In this class you'll have to work together on projects. 
+In this class you'll have to work together on assignments.
 
+## Mid class break
 
+-   This Class is Long
+
+-   We'll have a break midclass.
+
+-   Stand up stretch, get some water, look at your phone
+
+-   Phones away in Class (after logging in).
+
+## Questions or Feelings?
