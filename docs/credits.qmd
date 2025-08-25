@@ -1,0 +1,4 @@
+Much of the outline of this course came from two sources
+
+1. From Pablo Frank and Micheal Robson's CSC 110 course at Smith College.
+2. From Jon Venullet's CSI 106 course at HCC. 
