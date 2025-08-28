@@ -1,0 +1,147 @@
+---
+title: "Getting Started"
+author: "Schwab"
+format: 
+  revealjs:
+    theme: serif
+execute:
+    echo: true
+    output: true
+    code-fold: false
+---
+
+# Functions
+
+For this lecture I assume you have read chapter 2 from the text. 
+
+## Print
+
+print() is an example of a function. 
+
+```{python}
+
+print("<- I am a function")
+```
+
+## Help
+
+```{python}
+help(print)
+```
+
+
+## Or use AI
+
+Open up [gemini](https://gemini.google.com/) and have it explain.
+
+## Arguments
+
+Many functions take arguments
+
+Some arguments are confusing
+
+It help to play with new functions. 
+
+## Let's play with print
+
+[Click here](https://classroom.github.com/a/IWFFANCJ) to be directed to github.com and open the code space to Hello World from Yesterday. 
+
+Let's open a new python script. 
+
+Try these:
+1. Set the variable message equal to a sentence and print it. 
+2. Change the sentence, but not the variable name and print it again.
+3. Change end = "\t".
+4. Can you change end to anything?
+5. Make a variable equal to a number and print it and the message .
+6. Change sep to "" with no space and print again. 
+
+
+## "\\n" and "\\t"
+
+What do these do in print?
+
+Make a some text that looks like this:
+
+```{python}
+#| echo: false
+
+print("Top Step \n \t \t Second Step \n \t \t \t \t \t Bottom Step")
+```
+
+
+## New Functions
+
+When you see new functions, be sure to ask for `help()`
+
+## Variable Names
+
+Pay attention when you are reading the text. 
+
+Name variables as they do in the text. 
+
+## Working in a terminal
+
+If you do not see a terminal the
+
+Go to *Terminal > New Terminal*
+
+```{python}
+#| execute: false
+
+import this
+```
+
+## Comments
+
+When working on code it is helpful to comment. 
+
+But don't over comment. 
+
+Here's the [Style Guide for comments](https://peps.python.org/pep-0008/#comments)
+
+Add a useful comment to your code above
+
+## Psuedo Code
+
+[The general idea](https://youtube.com/shorts/z4PWDwUT8H8?si=3_IvFyfk2reo87uu)
+
+We have a problem. We need to print a tic-tac-toe board. 
+
+With a partner discuss how this might be done. 
+
+## More Psuedo code
+
+When playing tic-tac-toe we need the player to be able to input an X or an O without a mouse. 
+
+## Pair programming
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/q7d_JtyCq1A?si=XXcQteW6C24FRn9k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## Code it
+
+On one computer try to code the tic-tac-toe board. 
+
+Consider your psuedocode. 
+
+-   One person types.
+-   Both people talk to each other. 
+
+## Comment your code
+
+After you have code that works (if it works)
+
+Comment it. 
+
+Add a [doc string](https://peps.python.org/pep-0008/#documentation-strings) to the top. 
+
+You may want to send the code via email (you could use git, but that's getting tricky).
+
+## Exercise 1
+
+After you've got your tic-tac-toe board move on to exercise 1. 
+
+Note: Exercise 1 assumes your read chapters 1 and 2. 
+
+[Here is exercise 1](https://classroom.github.com/a/K-H3QSk7)
+

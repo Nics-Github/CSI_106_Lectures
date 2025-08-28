@@ -5,4 +5,6 @@ author: "Nic Schwab"
 
 These are the lectures from CSI 106, you can also find the direct links via Canvas. 
 
-[Introduction](./lectures/Introduction.qmd)
+[Lecture 1: Introduction](./lectures/1_Introduction.qmd)
+
+[Lecture 2: Functions, Psuedocode, Pair Programming](./lectures/2_functions_and_variables.qmd)

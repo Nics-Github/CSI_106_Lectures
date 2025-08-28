@@ -28,6 +28,72 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
+    /* CSS for syntax highlighting */
+    html { -webkit-text-size-adjust: 100%; }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      { color: #003b4f; background-color: #f1f3f5; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #003b4f; } /* Normal */
+    code span.al { color: #ad0000; } /* Alert */
+    code span.an { color: #5e5e5e; } /* Annotation */
+    code span.at { color: #657422; } /* Attribute */
+    code span.bn { color: #ad0000; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #20794d; } /* Char */
+    code span.cn { color: #8f5902; } /* Constant */
+    code span.co { color: #5e5e5e; } /* Comment */
+    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+    code span.dt { color: #ad0000; } /* DataType */
+    code span.dv { color: #ad0000; } /* DecVal */
+    code span.er { color: #ad0000; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #ad0000; } /* Float */
+    code span.fu { color: #4758ab; } /* Function */
+    code span.im { color: #00769e; } /* Import */
+    code span.in { color: #5e5e5e; } /* Information */
+    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
+    code span.op { color: #5e5e5e; } /* Operator */
+    code span.ot { color: #003b4f; } /* Other */
+    code span.pp { color: #ad0000; } /* Preprocessor */
+    code span.sc { color: #5e5e5e; } /* SpecialChar */
+    code span.ss { color: #20794d; } /* SpecialString */
+    code span.st { color: #20794d; } /* String */
+    code span.va { color: #111111; } /* Variable */
+    code span.vs { color: #20794d; } /* VerbatimString */
+    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-816793a8a4a837d14f6ea458e2f1c5cb.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
@@ -138,202 +204,154 @@ Schwab
 </div>
 
 </section>
-<section id="first-day" class="slide level2">
-<h2>First Day</h2>
-<p>Welcome to CSI 106</p>
-<p>We will be coding from scratch. I assume that you all have little to no background in programming.</p>
+<section>
+<section id="functions" class="title-slide slide level1 center">
+<h1>Functions</h1>
+<p>For this lecture I assume you have read chapter 2 from the text.</p>
 </section>
-<section id="we-have-a-bunch-of-todos." class="slide level2">
-<h2>We have a bunch of todos.</h2>
-<p>Introduction</p>
-<p>Talk to each other</p>
-<p>AI policy</p>
-<p>Sign up for Github</p>
-<p>Get into Github Classroom</p>
-<p>Talk to each other</p>
-<p>Introduce you to Visual Studio Code via Code Spaces</p>
-<p>Code something</p>
-</section>
-<section id="about-me" class="slide level2">
-<h2>About me</h2>
-<p>My name is Nicholas Schwab.</p>
-<p>I’m studying Data Science as grad student at UT Austin.</p>
-<p>I used to be in the Math Department here and lectured Data Science at Smith.</p>
-<p>I like Rock Climbing and biking and hanging with my family.</p>
-<p>I live in Easthampton.</p>
-<p>My first programming language was R.</p>
-</section>
-<section id="some-photos" class="slide level2">
-<h2>Some Photos</h2>
-</section>
-<section id="about-you" class="slide level2">
-<h2>About You</h2>
-<p>Introduce yourself to your neighbors. Name and Pronoun Town you live in. Rose of the summer. Coding Background, first language?</p>
-</section>
-<section id="why-csi-106" class="slide level2">
-<h2>Why CSI 106</h2>
-<p>You’ll learn to “think like a computer scientist” You’ll build programs that are super neat and fun You’ll develop the skills need for industry.</p>
-</section>
-<section id="what-is-computer-science" class="slide level2">
-<h2>What is computer science?</h2>
-<p>What is Computer Science?</p>
-<p>Think pair share with those people you talked to before.</p>
-</section>
-<section id="what-is-cs" class="slide level2">
-<h2>What is CS?</h2>
-<p>What is Computer Science?</p>
-<p><em>“Computer science is the structured study of and the design of solutions for problems that are solivable with a series of steps”</em> - Pablo Frank</p>
-</section>
-<section id="why-cs" class="slide level2">
-<h2>Why CS?</h2>
-<p>Learn to Plan:</p>
-<ol type="1">
-<li>Find which two people in the class share the most courses this semester.</li>
-<li>Find the average number of classes taken this semester.</li>
-<li>Sort students by number of classes taken.</li>
-</ol>
-<p>Discuss with your peers.</p>
-</section>
-<section id="why-cs-1" class="slide level2">
-<h2>Why CS?</h2>
-<p>Computer Science Thinking is not only for computer scienctist.</p>
-<p>Computers in Medience Nature Facial Recognition</p>
-</section>
-<section id="why-cs-2" class="slide level2">
-<h2>Why CS?</h2>
-<p>What is Programming?</p>
-<p>Reminder: <em>“Computer science is the structured study of and the design of solutions for problems that are solivable with a series of steps”</em> - Pablo Frank</p>
-<p>Think pair share with those people you talked to before.</p>
-</section>
-<section id="why-cs-3" class="slide level2">
-<h2>Why CS</h2>
-<p>What is Programming?</p>
-<p><em>Programming is the translation of an algorithm into strutured and unambiguous steps that are readable by some agent. </em></p>
-</section>
-<section id="hcc-choices" class="slide level2">
-<h2>HCC choices</h2>
-<ol type="1">
-<li>Computer Science Option, A.S.</li>
-<li>Information Technology Management Option, A.S.</li>
-<li>Cyber Security &amp; Digital Forensics Option, A.S. (certificate)</li>
-<li>Data Science Option, A.S.</li>
-</ol>
-</section>
-<section id="what-will-we-do" class="slide level2">
-<h2>What will we do?</h2>
-<p>We will build tic-tac-toe from first principles.</p>
-
-<img data-src="../images/tictactoe.svg" class="r-stretch quarto-figure-center"><p class="caption">tic tac toe</p></section>
-<section id="how-will-we-do-it" class="slide level2">
-<h2>How will we do it?</h2>
-<p><a href="../images/class_tools_car.png">The tools for class</a></p>
-</section>
-<section id="why-python" class="slide level2">
-<h2>Why Python</h2>
-
-<img data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1024px-Python-logo-notext.svg.png" class="r-stretch quarto-figure-center"><p class="caption">Pyton Image</p><p>Python is super popular right now.</p>
-<p>Its a friendlier language, which is nice for beginners.</p>
-</section>
-<section id="where-is-python-used" class="slide level2">
-<h2>Where is python used?</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><a href="https://www.learnenough.com/blog/10-Companies-Using-Python-In-2023-&amp;-Why-It's-Their-Go-To#:~:text=Python's%20big%20data%20functionality%20is,frameworks%2C%20including%20Django%20and%20Flask."><img data-src="../images/companies_that_use_python.png" alt="Made with Gemini Flash 2.5"></a></p>
-<figcaption>Companies that Use Python</figcaption>
-</figure>
+<section id="print" class="slide level2">
+<h2>Print</h2>
+<p>print() is an example of a function.</p>
+<div id="7c666581" class="cell" data-execution_count="1">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a></a><span class="bu">print</span>(<span class="st">"&lt;- I am a function"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>&lt;- I am a function</code></pre>
+</div>
 </div>
 </section>
-<section id="ai-policy" class="slide level2">
-<h2>AI policy</h2>
-<p>We will use <a href="https://docs.google.com/document/d/1JaUvGhvMC3y4exeBM40axUjVmFEJOPpxyq6Agzx8MrQ/edit?usp=sharing">this document</a> to develop our AI policy.</p>
-</section>
-<section id="think-pair-share-ai" class="slide level2">
-<h2>Think Pair Share AI</h2>
-<p>I will now partner you up so you can share how you have used AI, and how you think you should use it in this class.</p>
-<p>We will come back and draft some AI policy which we will revisit at the end of class and throughout the semester.</p>
-</section>
-<section id="but-ai-can-do-almost-everything" class="slide level2">
-<h2>But AI can do almost everything?</h2>
-<p>Yes, but you wont learn if you use AI.</p>
-<p>Let’s try it with <a href="https://gemini.google.com/">Gemini</a></p>
-</section>
-<section id="complicated-things" class="slide level2">
-<h2>Complicated things</h2>
-<ul>
-<li><p>A human is still needed for new or complicated projects.</p></li>
-<li><p>You will still have to fix bugs in AI.</p></li>
-<li><p>You will come across code that is complicated and read/edit it.</p></li>
-<li><p>We will see how AI has trouble during the semester.</p></li>
-<li><p>If you work in a niche field AI will not necessarily be there to help.</p></li>
-</ul>
-</section>
-<section id="mid-class-break" class="slide level2">
-<h2>Mid class break</h2>
-<ul>
-<li><p>This class is Long</p></li>
-<li><p>We’ll have a break midclass.</p></li>
-<li><p>Stand up stretch, get some water, look at your phone</p></li>
-</ul>
-<p>Phones away in Class (after logging in).</p>
-</section>
-<section>
-<section id="getting-set-up" class="title-slide slide level1 center">
-<h1>Getting Set Up</h1>
+<section id="help" class="slide level2">
+<h2>Help</h2>
+<div id="b5448c49" class="cell" data-execution_count="2">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a></a><span class="bu">help</span>(<span class="bu">print</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Help on built-in function print in module builtins:
 
+print(*args, sep=' ', end='\n', file=None, flush=False)
+    Prints the values to a stream, or to sys.stdout by default.
+
+    sep
+      string inserted between values, default a space.
+    end
+      string appended after the last value, default a newline.
+    file
+      a file-like object (stream); defaults to the current sys.stdout.
+    flush
+      whether to forcibly flush the stream.
+</code></pre>
+</div>
+</div>
 </section>
-<section id="sign-up-for-github" class="slide level2">
-<h2>Sign up for github</h2>
-<p>Go to <a href="www.github.com">github.com</a> and sign up.</p>
+<section id="or-use-ai" class="slide level2">
+<h2>Or use AI</h2>
+<p>Open up <a href="https://gemini.google.com/">gemini</a> and have it explain.</p>
 </section>
-<section id="what-is-github" class="slide level2">
-<h2>What is github?</h2>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pBy1zgt0XPc?si=txordn4AuCFda0in" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
+<section id="arguments" class="slide level2">
+<h2>Arguments</h2>
+<p>Many functions take arguments</p>
+<p>Some arguments are confusing</p>
+<p>It help to play with new functions.</p>
+</section>
+<section id="lets-play-with-print" class="slide level2">
+<h2>Let’s play with print</h2>
+<p><a href="https://classroom.github.com/a/IWFFANCJ">Click here</a> to be directed to github.com and open the code space to Hello World from Yesterday.</p>
+<p>Let’s open a new python script.</p>
+<p>Try these: 1. Set the variable message equal to a sentence and print it. 2. Change the sentence, but not the variable name and print it again. 3. Change end = “. 4. Can you change end to anything? 5. Make a variable equal to a number and print it and the message . 6. Change sep to”” with no space and print again.</p>
+</section>
+<section id="n-and-t" class="slide level2">
+<h2>“\n” and “\t”</h2>
+<p>What do these do in print?</p>
+<p>Make a some text that looks like this:</p>
+<div id="33ebbf5e" class="cell" data-execution_count="3">
+<div class="cell-output cell-output-stdout">
+<pre><code>Top Step 
+         Second Step 
+                     Bottom Step</code></pre>
+</div>
+</div>
+</section>
+<section id="new-functions" class="slide level2">
+<h2>New Functions</h2>
+<p>When you see new functions, be sure to ask for <code>help()</code></p>
+</section>
+<section id="variable-names" class="slide level2">
+<h2>Variable Names</h2>
+<p>Pay attention when you are reading the text.</p>
+<p>Name variables as they do in the text.</p>
+</section>
+<section id="working-in-a-terminal" class="slide level2">
+<h2>Working in a terminal</h2>
+<p>If you do not see a terminal the</p>
+<p>Go to <em>Terminal &gt; New Terminal</em></p>
+<div id="be176114" class="cell" data-execute="false" data-execution_count="4">
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a></a><span class="im">import</span> this</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>The Zen of Python, by Tim Peters
+
+Beautiful is better than ugly.
+Explicit is better than implicit.
+Simple is better than complex.
+Complex is better than complicated.
+Flat is better than nested.
+Sparse is better than dense.
+Readability counts.
+Special cases aren't special enough to break the rules.
+Although practicality beats purity.
+Errors should never pass silently.
+Unless explicitly silenced.
+In the face of ambiguity, refuse the temptation to guess.
+There should be one-- and preferably only one --obvious way to do it.
+Although that way may not be obvious at first unless you're Dutch.
+Now is better than never.
+Although never is often better than *right* now.
+If the implementation is hard to explain, it's a bad idea.
+If the implementation is easy to explain, it may be a good idea.
+Namespaces are one honking great idea -- let's do more of those!</code></pre>
+</div>
+</div>
+</section>
+<section id="comments" class="slide level2">
+<h2>Comments</h2>
+<p>When working on code it is helpful to comment.</p>
+<p>But don’t over comment.</p>
+<p>Here’s the <a href="https://peps.python.org/pep-0008/#comments">Style Guide for comments</a></p>
+<p>Add a useful comment to your code above</p>
+</section>
+<section id="psuedo-code" class="slide level2">
+<h2>Psuedo Code</h2>
+<p><a href="https://youtube.com/shorts/z4PWDwUT8H8?si=3_IvFyfk2reo87uu">The general idea</a></p>
+<p>We have a problem. We need to print a tic-tac-toe board.</p>
+<p>With a partner discuss how this might be done.</p>
+</section>
+<section id="more-psuedo-code" class="slide level2">
+<h2>More Psuedo code</h2>
+<p>When playing tic-tac-toe we need the player to be able to input an X or an O without a mouse.</p>
+</section>
+<section id="pair-programming" class="slide level2">
+<h2>Pair programming</h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/q7d_JtyCq1A?si=XXcQteW6C24FRn9k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
 </iframe>
 </section>
-<section id="github-classroom" class="slide level2">
-<h2>Github Classroom</h2>
-<p>Click <a href="https://classroom.github.com/a/IWFFANCJ">this link</a> for our first activity using github.</p>
+<section id="code-it" class="slide level2">
+<h2>Code it</h2>
+<p>On one computer try to code the tic-tac-toe board.</p>
+<p>Consider your psuedocode.</p>
+<ul>
+<li>One person types.</li>
+<li>Both people talk to each other.</li>
+</ul>
 </section>
-<section id="repository-tour" class="slide level2">
-<h2>Repository Tour</h2>
-<p>Let’s take a tour of github.</p>
+<section id="comment-your-code" class="slide level2">
+<h2>Comment your code</h2>
+<p>After you have code that works (if it works)</p>
+<p>Comment it.</p>
+<p>Add a <a href="https://peps.python.org/pep-0008/#documentation-strings">doc string</a> to the top.</p>
+<p>You may want to send the code via email (you could use git, but that’s getting tricky).</p>
 </section>
-<section id="madlibs" class="slide level2">
-<h2>Madlibs</h2>
-<p><a href="https://svickars.github.io/mad-libs/">mad libs</a></p>
-</section>
-<section id="this-code-exists-on-github." class="slide level2">
-<h2>This code exists on github.</h2>
-<p><a href="https://github.com/svickars/mad-libs">mas-libs repo</a></p>
-</section>
-<section id="can-ai-make-mad-libs" class="slide level2">
-<h2>Can AI make Mad Libs?</h2>
-<p>Totally! Is it as good as Sam Vickers?</p>
-<p>Can you open up some AI tool and make it?</p>
-</section>
-<section id="break" class="slide level2">
-<h2>Break</h2>
-</section>
-<section id="intoduction-to-vs-code" class="slide level2">
-<h2>Intoduction to VS Code</h2>
-<p>Brace Yourselves</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KMxo3T_MTvY?si=MhpoRJ0BYYQUxuYQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
-</iframe>
-</section>
-<section id="lets-do-our-first-exercise" class="slide level2">
-<h2>Let’s do our first exercise!</h2>
-<p><a href="https://classroom.github.com/a/IWFFANCJ">Hello World</a></p>
-<p>Live Coding.</p>
-</section>
-<section id="textbook" class="slide level2">
-<h2>Textbook</h2>
-<p>We have a lot of reading in this course. You need to do the reading to stay up to date. There will be very little lecture in this course.</p>
-</section>
-<section id="here-are-our-to-dos-and-reading" class="slide level2">
-<h2>Here are our to dos and reading</h2>
-<p><a href="https://canvas.hcc.edu/courses/15554/pages/to-do-and-reading-week-1?module_item_id=877545">homework week 1</a></p>
-<p>Let’s start it together.</p>
-<p>If you can read chapters 1 and 2 before Thursday.</p>
+<section id="exercise-1" class="slide level2">
+<h2>Exercise 1</h2>
+<p>After you’ve got your tic-tac-toe board move on to exercise 1.</p>
+<p>Note: Exercise 1 assumes your read chapters 1 and 2.</p>
+<p><a href="https://classroom.github.com/a/K-H3QSk7">Here is exercise 1</a></p>
 
 
 </section></section>

@@ -13,23 +13,23 @@ Welcome to CSI 106
 
 We will be coding from scratch. I assume that you all have little to no background in programming.
 
-## We have a bunch of todos.
+## We have a bunch of to dos.
 
-Introduction
+- Introduction
 
-Talk to each other
+- Talk to each other
 
-AI policy
+- AI policy
 
-Sign up for Github
+- Sign up for Github
 
-Get into Github Classroom
+- Get into Github Classroom
 
-Talk to each other
+- Talk to each other
 
-Introduce you to Visual Studio Code via Code Spaces
+- Introduce you to Visual Studio Code via Code Spaces
 
-Code something
+- Code something
 
 ## About me
 
@@ -45,21 +45,25 @@ I live in Easthampton.
 
 My first programming language was R. 
 
-## Some Photos
-
 ## About You
 
-Introduce yourself to your neighbors. 
-Name and Pronoun
-Town you live in.
-Rose of the summer. 
-Coding Background, first language?
+- Introduce yourself to your neighbors. 
+  
+- Name and Pronoun
+
+- Town you live in.
+  
+- Rose of the summer. 
+  
+- Coding Background, first language?
 
 ## Why CSI 106
 
 You'll learn to "think like a computer scientist"
+
 You'll build programs that are super neat and fun
-You'll develop the skills need for industry. 
+
+You'll develop the skills needed for industry. 
 
 ## What is computer science?
 
@@ -71,11 +75,15 @@ Think pair share with those people you talked to before.
 
 What is Computer Science?
 
-*"Computer science is the structured study of and the design of solutions for problems that are solivable with a series of steps"* - Pablo Frank
+*"Computer science is the structured study of and the design of solutions for problems that are solivable with a series of steps"* 
+
+- Pablo Frank
 
 ## Why CS?
 
 Learn to Plan:
+
+How could you do these things: 
 
 1. Find which two people in the class share the most courses this semester. 
 2. Find the average number of classes taken this semester. 
@@ -88,8 +96,12 @@ Discuss with your peers.
 Computer Science Thinking is not only for computer scienctist. 
 
 Computers in Medience 
-Nature
+
+Organize people with software
+
 Facial Recognition
+
+Cyber Security
 
 ## Why CS?
 
@@ -104,6 +116,8 @@ Think pair share with those people you talked to before.
 What is Programming?
 
 *Programming is the translation of an algorithm into strutured and unambiguous steps that are readable by some agent. *
+
+# What does HCC offer?
 
 ## HCC choices
 
@@ -120,7 +134,7 @@ We will build tic-tac-toe from first principles.
 
 ## How will we do it? 
 
-[The tools for class](/images/class_tools_car.png)
+![](/images/class_tools_car.png){fig-align="center"}
 
 
 ## Why Python
@@ -138,6 +152,10 @@ Its a friendlier language, which is nice for beginners.
 
 ## AI policy
 
+In this class we will draft an AI policy together. 
+
+We will start this today.
+
 We will use [this document](https://docs.google.com/document/d/1JaUvGhvMC3y4exeBM40axUjVmFEJOPpxyq6Agzx8MrQ/edit?usp=sharing) to develop our AI policy. 
 
 ## Think Pair Share AI
@@ -151,23 +169,31 @@ We will come back and draft some AI policy which we will revisit at the end of c
 
 Yes, but you wont learn if you use AI.
 
-Let's try it with [Gemini](https://gemini.google.com/)
+Everyone can now Vibe Code, you need to stand out. 
+
+- Stand out with a portfolio
+- Stand out with induntry certifications
+- Stand out by knowing what you are talking about. 
+
+Let's Vibe Code [Gemini](https://gemini.google.com/)
 
 ## Complicated things
 
 -   A human is still needed for new or complicated projects.
 
--   You will still have to fix bugs in AI.
+-   You will have to fix bugs in AI.
 
--   You will come across code that is complicated and read/edit it.
+-   You will come across code that is complicated and will need to read/edit it.
 
 -   We will see how AI has trouble during the semester.
 
 -   If you work in a niche field AI will not necessarily be there to help.
 
+I will try to convince you that AI is not your friend in this class. 
+
 ## Mid class break
 
--   This class is Long
+-   This class is long
 
 -   We'll have a break midclass.
 
@@ -191,17 +217,21 @@ Go to [github.com](www.github.com) and sign up.
 
 Click [this link](https://classroom.github.com/a/IWFFANCJ) for our first activity using github. 
 
+We'll do the activity in a bit.
+
 ## Repository Tour
 
 Let's take a tour of github.
 
 ## Madlibs
 
-[mad libs](https://svickars.github.io/mad-libs/)
+For some fun and class bonding lets do some [mad libs](https://svickars.github.io/mad-libs/). Please keep things appropriate. 
 
-## This code exists on github. 
+## Madlibs on github. 
 
-[mas-libs repo](https://github.com/svickars/mad-libs)
+So Mad Libs was created by a Person and their code exists on github. 
+
+[mad libs repo](https://github.com/svickars/mad-libs)
 
 
 ## Can AI make Mad Libs?
@@ -212,10 +242,9 @@ Can you open up some AI tool and make it?
 
 ## Break
  
-
 ## Intoduction to VS Code
 
-Brace Yourselves
+Brace Yourselves for this one. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/KMxo3T_MTvY?si=MhpoRJ0BYYQUxuYQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -227,7 +256,11 @@ Live Coding.
 
 ## Textbook
 
-We have a lot of reading in this course. You need to do the reading to stay up to date. There will be very little lecture in this course. 
+We have a lot of reading in this course. You need to do the reading to stay up to date. 
+
+The reading comes from [Think Python](https://allendowney.github.io/ThinkPython/)
+
+If you do not read, you will have a hard time. 
 
 ## Here are our to dos and reading
 
@@ -235,5 +268,5 @@ We have a lot of reading in this course. You need to do the reading to stay up t
 
 Let's start it together. 
 
-If you can read chapters 1 and 2 before Thursday. 
+Read chapters 1 and 2 before Thursday. 
 

@@ -7,248 +7,353 @@
     "text": "This is the lecture site for CSI 106"
   },
   {
-    "objectID": "lectures/Introduction.html#first-day",
-    "href": "lectures/Introduction.html#first-day",
+    "objectID": "lectures/2_functions_and_variables.html#print",
+    "href": "lectures/2_functions_and_variables.html#print",
+    "title": "Getting Started",
+    "section": "Print",
+    "text": "Print\nprint() is an example of a function.\n\nprint(\"&lt;- I am a function\")\n\n&lt;- I am a function"
+  },
+  {
+    "objectID": "lectures/2_functions_and_variables.html#help",
+    "href": "lectures/2_functions_and_variables.html#help",
+    "title": "Getting Started",
+    "section": "Help",
+    "text": "Help\n\nhelp(print)\n\nHelp on built-in function print in module builtins:\n\nprint(*args, sep=' ', end='\\n', file=None, flush=False)\n    Prints the values to a stream, or to sys.stdout by default.\n\n    sep\n      string inserted between values, default a space.\n    end\n      string appended after the last value, default a newline.\n    file\n      a file-like object (stream); defaults to the current sys.stdout.\n    flush\n      whether to forcibly flush the stream."
+  },
+  {
+    "objectID": "lectures/2_functions_and_variables.html#or-use-ai",
+    "href": "lectures/2_functions_and_variables.html#or-use-ai",
+    "title": "Getting Started",
+    "section": "Or use AI",
+    "text": "Or use AI\nOpen up gemini and have it explain."
+  },
+  {
+    "objectID": "lectures/2_functions_and_variables.html#arguments",
+    "href": "lectures/2_functions_and_variables.html#arguments",
+    "title": "Getting Started",
+    "section": "Arguments",
+    "text": "Arguments\nMany functions take arguments\nSome arguments are confusing\nIt help to play with new functions."
+  },
+  {
+    "objectID": "lectures/2_functions_and_variables.html#lets-play-with-print",
+    "href": "lectures/2_functions_and_variables.html#lets-play-with-print",
+    "title": "Getting Started",
+    "section": "Let’s play with print",
+    "text": "Let’s play with print\nClick here to be directed to github.com and open the code space to Hello World from Yesterday.\nLet’s open a new python script.\nTry these: 1. Set the variable message equal to a sentence and print it. 2. Change the sentence, but not the variable name and print it again. 3. Change end = “. 4. Can you change end to anything? 5. Make a variable equal to a number and print it and the message . 6. Change sep to”” with no space and print again."
+  },
+  {
+    "objectID": "lectures/2_functions_and_variables.html#n-and-t",
+    "href": "lectures/2_functions_and_variables.html#n-and-t",
+    "title": "Getting Started",
+    "section": "“\\n” and “\\t”",
+    "text": "“\\n” and “\\t”\nWhat do these do in print?\nMake a some text that looks like this:\n\n\nTop Step \n         Second Step \n                     Bottom Step"
+  },
+  {
+    "objectID": "lectures/2_functions_and_variables.html#new-functions",
+    "href": "lectures/2_functions_and_variables.html#new-functions",
+    "title": "Getting Started",
+    "section": "New Functions",
+    "text": "New Functions\nWhen you see new functions, be sure to ask for help()"
+  },
+  {
+    "objectID": "lectures/2_functions_and_variables.html#variable-names",
+    "href": "lectures/2_functions_and_variables.html#variable-names",
+    "title": "Getting Started",
+    "section": "Variable Names",
+    "text": "Variable Names\nPay attention when you are reading the text.\nName variables as they do in the text."
+  },
+  {
+    "objectID": "lectures/2_functions_and_variables.html#working-in-a-terminal",
+    "href": "lectures/2_functions_and_variables.html#working-in-a-terminal",
+    "title": "Getting Started",
+    "section": "Working in a terminal",
+    "text": "Working in a terminal\nIf you do not see a terminal the\nGo to Terminal &gt; New Terminal\n\nimport this\n\nThe Zen of Python, by Tim Peters\n\nBeautiful is better than ugly.\nExplicit is better than implicit.\nSimple is better than complex.\nComplex is better than complicated.\nFlat is better than nested.\nSparse is better than dense.\nReadability counts.\nSpecial cases aren't special enough to break the rules.\nAlthough practicality beats purity.\nErrors should never pass silently.\nUnless explicitly silenced.\nIn the face of ambiguity, refuse the temptation to guess.\nThere should be one-- and preferably only one --obvious way to do it.\nAlthough that way may not be obvious at first unless you're Dutch.\nNow is better than never.\nAlthough never is often better than *right* now.\nIf the implementation is hard to explain, it's a bad idea.\nIf the implementation is easy to explain, it may be a good idea.\nNamespaces are one honking great idea -- let's do more of those!"
+  },
+  {
+    "objectID": "lectures/2_functions_and_variables.html#comments",
+    "href": "lectures/2_functions_and_variables.html#comments",
+    "title": "Getting Started",
+    "section": "Comments",
+    "text": "Comments\nWhen working on code it is helpful to comment.\nBut don’t over comment.\nHere’s the Style Guide for comments\nAdd a useful comment to your code above"
+  },
+  {
+    "objectID": "lectures/2_functions_and_variables.html#psuedo-code",
+    "href": "lectures/2_functions_and_variables.html#psuedo-code",
+    "title": "Getting Started",
+    "section": "Psuedo Code",
+    "text": "Psuedo Code\nThe general idea\nWe have a problem. We need to print a tic-tac-toe board.\nWith a partner discuss how this might be done."
+  },
+  {
+    "objectID": "lectures/2_functions_and_variables.html#more-psuedo-code",
+    "href": "lectures/2_functions_and_variables.html#more-psuedo-code",
+    "title": "Getting Started",
+    "section": "More Psuedo code",
+    "text": "More Psuedo code\nWhen playing tic-tac-toe we need the player to be able to input an X or an O without a mouse."
+  },
+  {
+    "objectID": "lectures/2_functions_and_variables.html#pair-programming",
+    "href": "lectures/2_functions_and_variables.html#pair-programming",
+    "title": "Getting Started",
+    "section": "Pair programming",
+    "text": "Pair programming"
+  },
+  {
+    "objectID": "lectures/2_functions_and_variables.html#code-it",
+    "href": "lectures/2_functions_and_variables.html#code-it",
+    "title": "Getting Started",
+    "section": "Code it",
+    "text": "Code it\nOn one computer try to code the tic-tac-toe board.\nConsider your psuedocode.\n\nOne person types.\nBoth people talk to each other."
+  },
+  {
+    "objectID": "lectures/2_functions_and_variables.html#comment-your-code",
+    "href": "lectures/2_functions_and_variables.html#comment-your-code",
+    "title": "Getting Started",
+    "section": "Comment your code",
+    "text": "Comment your code\nAfter you have code that works (if it works)\nComment it.\nAdd a doc string to the top.\nYou may want to send the code via email (you could use git, but that’s getting tricky)."
+  },
+  {
+    "objectID": "lectures/2_functions_and_variables.html#exercise-1",
+    "href": "lectures/2_functions_and_variables.html#exercise-1",
+    "title": "Getting Started",
+    "section": "Exercise 1",
+    "text": "Exercise 1\nAfter you’ve got your tic-tac-toe board move on to exercise 1.\nNote: Exercise 1 assumes your read chapters 1 and 2.\nHere is exercise 1"
+  },
+  {
+    "objectID": "lectures/1_Introduction.html#first-day",
+    "href": "lectures/1_Introduction.html#first-day",
     "title": "Getting Started",
     "section": "First Day",
     "text": "First Day\nWelcome to CSI 106\nWe will be coding from scratch. I assume that you all have little to no background in programming."
   },
   {
-    "objectID": "lectures/Introduction.html#we-have-a-bunch-of-todos.",
-    "href": "lectures/Introduction.html#we-have-a-bunch-of-todos.",
+    "objectID": "lectures/1_Introduction.html#we-have-a-bunch-of-to-dos.",
+    "href": "lectures/1_Introduction.html#we-have-a-bunch-of-to-dos.",
     "title": "Getting Started",
-    "section": "We have a bunch of todos.",
-    "text": "We have a bunch of todos.\nIntroduction\nTalk to each other\nAI policy\nSign up for Github\nGet into Github Classroom\nTalk to each other\nIntroduce you to Visual Studio Code via Code Spaces\nCode something"
+    "section": "We have a bunch of to dos.",
+    "text": "We have a bunch of to dos.\n\nIntroduction\nTalk to each other\nAI policy\nSign up for Github\nGet into Github Classroom\nTalk to each other\nIntroduce you to Visual Studio Code via Code Spaces\nCode something"
   },
   {
-    "objectID": "lectures/Introduction.html#about-me",
-    "href": "lectures/Introduction.html#about-me",
+    "objectID": "lectures/1_Introduction.html#about-me",
+    "href": "lectures/1_Introduction.html#about-me",
     "title": "Getting Started",
     "section": "About me",
     "text": "About me\nMy name is Nicholas Schwab.\nI’m studying Data Science as grad student at UT Austin.\nI used to be in the Math Department here and lectured Data Science at Smith.\nI like Rock Climbing and biking and hanging with my family.\nI live in Easthampton.\nMy first programming language was R."
   },
   {
-    "objectID": "lectures/Introduction.html#some-photos",
-    "href": "lectures/Introduction.html#some-photos",
-    "title": "Getting Started",
-    "section": "Some Photos",
-    "text": "Some Photos"
-  },
-  {
-    "objectID": "lectures/Introduction.html#about-you",
-    "href": "lectures/Introduction.html#about-you",
+    "objectID": "lectures/1_Introduction.html#about-you",
+    "href": "lectures/1_Introduction.html#about-you",
     "title": "Getting Started",
     "section": "About You",
-    "text": "About You\nIntroduce yourself to your neighbors. Name and Pronoun Town you live in. Rose of the summer. Coding Background, first language?"
+    "text": "About You\n\nIntroduce yourself to your neighbors.\nName and Pronoun\nTown you live in.\nRose of the summer.\nCoding Background, first language?"
   },
   {
-    "objectID": "lectures/Introduction.html#why-csi-106",
-    "href": "lectures/Introduction.html#why-csi-106",
+    "objectID": "lectures/1_Introduction.html#why-csi-106",
+    "href": "lectures/1_Introduction.html#why-csi-106",
     "title": "Getting Started",
     "section": "Why CSI 106",
-    "text": "Why CSI 106\nYou’ll learn to “think like a computer scientist” You’ll build programs that are super neat and fun You’ll develop the skills need for industry."
+    "text": "Why CSI 106\nYou’ll learn to “think like a computer scientist”\nYou’ll build programs that are super neat and fun\nYou’ll develop the skills needed for industry."
   },
   {
-    "objectID": "lectures/Introduction.html#what-is-computer-science",
-    "href": "lectures/Introduction.html#what-is-computer-science",
+    "objectID": "lectures/1_Introduction.html#what-is-computer-science",
+    "href": "lectures/1_Introduction.html#what-is-computer-science",
     "title": "Getting Started",
     "section": "What is computer science?",
     "text": "What is computer science?\nWhat is Computer Science?\nThink pair share with those people you talked to before."
   },
   {
-    "objectID": "lectures/Introduction.html#what-is-cs",
-    "href": "lectures/Introduction.html#what-is-cs",
+    "objectID": "lectures/1_Introduction.html#what-is-cs",
+    "href": "lectures/1_Introduction.html#what-is-cs",
     "title": "Getting Started",
     "section": "What is CS?",
-    "text": "What is CS?\nWhat is Computer Science?\n“Computer science is the structured study of and the design of solutions for problems that are solivable with a series of steps” - Pablo Frank"
+    "text": "What is CS?\nWhat is Computer Science?\n“Computer science is the structured study of and the design of solutions for problems that are solivable with a series of steps”\n\nPablo Frank"
   },
   {
-    "objectID": "lectures/Introduction.html#why-cs",
-    "href": "lectures/Introduction.html#why-cs",
+    "objectID": "lectures/1_Introduction.html#why-cs",
+    "href": "lectures/1_Introduction.html#why-cs",
     "title": "Getting Started",
     "section": "Why CS?",
-    "text": "Why CS?\nLearn to Plan:\n\nFind which two people in the class share the most courses this semester.\nFind the average number of classes taken this semester.\nSort students by number of classes taken.\n\nDiscuss with your peers."
+    "text": "Why CS?\nLearn to Plan:\nHow could you do these things:\n\nFind which two people in the class share the most courses this semester.\nFind the average number of classes taken this semester.\nSort students by number of classes taken.\n\nDiscuss with your peers."
   },
   {
-    "objectID": "lectures/Introduction.html#why-cs-1",
-    "href": "lectures/Introduction.html#why-cs-1",
+    "objectID": "lectures/1_Introduction.html#why-cs-1",
+    "href": "lectures/1_Introduction.html#why-cs-1",
     "title": "Getting Started",
     "section": "Why CS?",
-    "text": "Why CS?\nComputer Science Thinking is not only for computer scienctist.\nComputers in Medience Nature Facial Recognition"
+    "text": "Why CS?\nComputer Science Thinking is not only for computer scienctist.\nComputers in Medience\nOrganize people with software\nFacial Recognition\nCyber Security"
   },
   {
-    "objectID": "lectures/Introduction.html#why-cs-2",
-    "href": "lectures/Introduction.html#why-cs-2",
+    "objectID": "lectures/1_Introduction.html#why-cs-2",
+    "href": "lectures/1_Introduction.html#why-cs-2",
     "title": "Getting Started",
     "section": "Why CS?",
     "text": "Why CS?\nWhat is Programming?\nReminder: “Computer science is the structured study of and the design of solutions for problems that are solivable with a series of steps” - Pablo Frank\nThink pair share with those people you talked to before."
   },
   {
-    "objectID": "lectures/Introduction.html#why-cs-3",
-    "href": "lectures/Introduction.html#why-cs-3",
+    "objectID": "lectures/1_Introduction.html#why-cs-3",
+    "href": "lectures/1_Introduction.html#why-cs-3",
     "title": "Getting Started",
     "section": "Why CS",
     "text": "Why CS\nWhat is Programming?\nProgramming is the translation of an algorithm into strutured and unambiguous steps that are readable by some agent."
   },
   {
-    "objectID": "lectures/Introduction.html#hcc-choices",
-    "href": "lectures/Introduction.html#hcc-choices",
+    "objectID": "lectures/1_Introduction.html#hcc-choices",
+    "href": "lectures/1_Introduction.html#hcc-choices",
     "title": "Getting Started",
     "section": "HCC choices",
     "text": "HCC choices\n\nComputer Science Option, A.S.\nInformation Technology Management Option, A.S.\nCyber Security & Digital Forensics Option, A.S. (certificate)\nData Science Option, A.S."
   },
   {
-    "objectID": "lectures/Introduction.html#what-will-we-do",
-    "href": "lectures/Introduction.html#what-will-we-do",
+    "objectID": "lectures/1_Introduction.html#what-will-we-do",
+    "href": "lectures/1_Introduction.html#what-will-we-do",
     "title": "Getting Started",
     "section": "What will we do?",
     "text": "What will we do?\nWe will build tic-tac-toe from first principles.\n\ntic tac toe"
   },
   {
-    "objectID": "lectures/Introduction.html#how-will-we-do-it",
-    "href": "lectures/Introduction.html#how-will-we-do-it",
+    "objectID": "lectures/1_Introduction.html#how-will-we-do-it",
+    "href": "lectures/1_Introduction.html#how-will-we-do-it",
     "title": "Getting Started",
     "section": "How will we do it?",
-    "text": "How will we do it?\nThe tools for class"
+    "text": "How will we do it?"
   },
   {
-    "objectID": "lectures/Introduction.html#why-python",
-    "href": "lectures/Introduction.html#why-python",
+    "objectID": "lectures/1_Introduction.html#why-python",
+    "href": "lectures/1_Introduction.html#why-python",
     "title": "Getting Started",
     "section": "Why Python",
     "text": "Why Python\n\nPyton ImagePython is super popular right now.\nIts a friendlier language, which is nice for beginners."
   },
   {
-    "objectID": "lectures/Introduction.html#where-is-python-used",
-    "href": "lectures/Introduction.html#where-is-python-used",
+    "objectID": "lectures/1_Introduction.html#where-is-python-used",
+    "href": "lectures/1_Introduction.html#where-is-python-used",
     "title": "Getting Started",
     "section": "Where is python used?",
     "text": "Where is python used?\n\n\n\nCompanies that Use Python"
   },
   {
-    "objectID": "lectures/Introduction.html#ai-policy",
-    "href": "lectures/Introduction.html#ai-policy",
+    "objectID": "lectures/1_Introduction.html#ai-policy",
+    "href": "lectures/1_Introduction.html#ai-policy",
     "title": "Getting Started",
     "section": "AI policy",
-    "text": "AI policy\nWe will use this document to develop our AI policy."
+    "text": "AI policy\nIn this class we will draft an AI policy together.\nWe will start this today.\nWe will use this document to develop our AI policy."
   },
   {
-    "objectID": "lectures/Introduction.html#think-pair-share-ai",
-    "href": "lectures/Introduction.html#think-pair-share-ai",
+    "objectID": "lectures/1_Introduction.html#think-pair-share-ai",
+    "href": "lectures/1_Introduction.html#think-pair-share-ai",
     "title": "Getting Started",
     "section": "Think Pair Share AI",
     "text": "Think Pair Share AI\nI will now partner you up so you can share how you have used AI, and how you think you should use it in this class.\nWe will come back and draft some AI policy which we will revisit at the end of class and throughout the semester."
   },
   {
-    "objectID": "lectures/Introduction.html#but-ai-can-do-almost-everything",
-    "href": "lectures/Introduction.html#but-ai-can-do-almost-everything",
+    "objectID": "lectures/1_Introduction.html#but-ai-can-do-almost-everything",
+    "href": "lectures/1_Introduction.html#but-ai-can-do-almost-everything",
     "title": "Getting Started",
     "section": "But AI can do almost everything?",
-    "text": "But AI can do almost everything?\nYes, but you wont learn if you use AI.\nLet’s try it with Gemini"
+    "text": "But AI can do almost everything?\nYes, but you wont learn if you use AI.\nEveryone can now Vibe Code, you need to stand out.\n\nStand out with a portfolio\nStand out with induntry certifications\nStand out by knowing what you are talking about.\n\nLet’s Vibe Code Gemini"
   },
   {
-    "objectID": "lectures/Introduction.html#complicated-things",
-    "href": "lectures/Introduction.html#complicated-things",
+    "objectID": "lectures/1_Introduction.html#complicated-things",
+    "href": "lectures/1_Introduction.html#complicated-things",
     "title": "Getting Started",
     "section": "Complicated things",
-    "text": "Complicated things\n\nA human is still needed for new or complicated projects.\nYou will still have to fix bugs in AI.\nYou will come across code that is complicated and read/edit it.\nWe will see how AI has trouble during the semester.\nIf you work in a niche field AI will not necessarily be there to help."
+    "text": "Complicated things\n\nA human is still needed for new or complicated projects.\nYou will have to fix bugs in AI.\nYou will come across code that is complicated and will need to read/edit it.\nWe will see how AI has trouble during the semester.\nIf you work in a niche field AI will not necessarily be there to help.\n\nI will try to convince you that AI is not your friend in this class."
   },
   {
-    "objectID": "lectures/Introduction.html#mid-class-break",
-    "href": "lectures/Introduction.html#mid-class-break",
+    "objectID": "lectures/1_Introduction.html#mid-class-break",
+    "href": "lectures/1_Introduction.html#mid-class-break",
     "title": "Getting Started",
     "section": "Mid class break",
-    "text": "Mid class break\n\nThis class is Long\nWe’ll have a break midclass.\nStand up stretch, get some water, look at your phone\n\nPhones away in Class (after logging in)."
+    "text": "Mid class break\n\nThis class is long\nWe’ll have a break midclass.\nStand up stretch, get some water, look at your phone\n\nPhones away in Class (after logging in)."
   },
   {
-    "objectID": "lectures/Introduction.html#sign-up-for-github",
-    "href": "lectures/Introduction.html#sign-up-for-github",
+    "objectID": "lectures/1_Introduction.html#sign-up-for-github",
+    "href": "lectures/1_Introduction.html#sign-up-for-github",
     "title": "Getting Started",
     "section": "Sign up for github",
     "text": "Sign up for github\nGo to github.com and sign up."
   },
   {
-    "objectID": "lectures/Introduction.html#what-is-github",
-    "href": "lectures/Introduction.html#what-is-github",
+    "objectID": "lectures/1_Introduction.html#what-is-github",
+    "href": "lectures/1_Introduction.html#what-is-github",
     "title": "Getting Started",
     "section": "What is github?",
     "text": "What is github?"
   },
   {
-    "objectID": "lectures/Introduction.html#github-classroom",
-    "href": "lectures/Introduction.html#github-classroom",
+    "objectID": "lectures/1_Introduction.html#github-classroom",
+    "href": "lectures/1_Introduction.html#github-classroom",
     "title": "Getting Started",
     "section": "Github Classroom",
-    "text": "Github Classroom\nClick this link for our first activity using github."
+    "text": "Github Classroom\nClick this link for our first activity using github.\nWe’ll do the activity in a bit."
   },
   {
-    "objectID": "lectures/Introduction.html#repository-tour",
-    "href": "lectures/Introduction.html#repository-tour",
+    "objectID": "lectures/1_Introduction.html#repository-tour",
+    "href": "lectures/1_Introduction.html#repository-tour",
     "title": "Getting Started",
     "section": "Repository Tour",
     "text": "Repository Tour\nLet’s take a tour of github."
   },
   {
-    "objectID": "lectures/Introduction.html#madlibs",
-    "href": "lectures/Introduction.html#madlibs",
+    "objectID": "lectures/1_Introduction.html#madlibs",
+    "href": "lectures/1_Introduction.html#madlibs",
     "title": "Getting Started",
     "section": "Madlibs",
-    "text": "Madlibs\nmad libs"
+    "text": "Madlibs\nFor some fun and class bonding lets do some mad libs. Please keep things appropriate."
   },
   {
-    "objectID": "lectures/Introduction.html#this-code-exists-on-github.",
-    "href": "lectures/Introduction.html#this-code-exists-on-github.",
+    "objectID": "lectures/1_Introduction.html#madlibs-on-github.",
+    "href": "lectures/1_Introduction.html#madlibs-on-github.",
     "title": "Getting Started",
-    "section": "This code exists on github.",
-    "text": "This code exists on github.\nmas-libs repo"
+    "section": "Madlibs on github.",
+    "text": "Madlibs on github.\nSo Mad Libs was created by a Person and their code exists on github.\nmad libs repo"
   },
   {
-    "objectID": "lectures/Introduction.html#can-ai-make-mad-libs",
-    "href": "lectures/Introduction.html#can-ai-make-mad-libs",
+    "objectID": "lectures/1_Introduction.html#can-ai-make-mad-libs",
+    "href": "lectures/1_Introduction.html#can-ai-make-mad-libs",
     "title": "Getting Started",
     "section": "Can AI make Mad Libs?",
     "text": "Can AI make Mad Libs?\nTotally! Is it as good as Sam Vickers?\nCan you open up some AI tool and make it?"
   },
   {
-    "objectID": "lectures/Introduction.html#break",
-    "href": "lectures/Introduction.html#break",
+    "objectID": "lectures/1_Introduction.html#break",
+    "href": "lectures/1_Introduction.html#break",
     "title": "Getting Started",
     "section": "Break",
     "text": "Break"
   },
   {
-    "objectID": "lectures/Introduction.html#intoduction-to-vs-code",
-    "href": "lectures/Introduction.html#intoduction-to-vs-code",
+    "objectID": "lectures/1_Introduction.html#intoduction-to-vs-code",
+    "href": "lectures/1_Introduction.html#intoduction-to-vs-code",
     "title": "Getting Started",
     "section": "Intoduction to VS Code",
-    "text": "Intoduction to VS Code\nBrace Yourselves"
+    "text": "Intoduction to VS Code\nBrace Yourselves for this one."
   },
   {
-    "objectID": "lectures/Introduction.html#lets-do-our-first-exercise",
-    "href": "lectures/Introduction.html#lets-do-our-first-exercise",
+    "objectID": "lectures/1_Introduction.html#lets-do-our-first-exercise",
+    "href": "lectures/1_Introduction.html#lets-do-our-first-exercise",
     "title": "Getting Started",
     "section": "Let’s do our first exercise!",
     "text": "Let’s do our first exercise!\nHello World\nLive Coding."
   },
   {
-    "objectID": "lectures/Introduction.html#textbook",
-    "href": "lectures/Introduction.html#textbook",
+    "objectID": "lectures/1_Introduction.html#textbook",
+    "href": "lectures/1_Introduction.html#textbook",
     "title": "Getting Started",
     "section": "Textbook",
-    "text": "Textbook\nWe have a lot of reading in this course. You need to do the reading to stay up to date. There will be very little lecture in this course."
+    "text": "Textbook\nWe have a lot of reading in this course. You need to do the reading to stay up to date.\nThe reading comes from Think Python\nIf you do not read, you will have a hard time."
   },
   {
-    "objectID": "lectures/Introduction.html#here-are-our-to-dos-and-reading",
-    "href": "lectures/Introduction.html#here-are-our-to-dos-and-reading",
+    "objectID": "lectures/1_Introduction.html#here-are-our-to-dos-and-reading",
+    "href": "lectures/1_Introduction.html#here-are-our-to-dos-and-reading",
     "title": "Getting Started",
     "section": "Here are our to dos and reading",
-    "text": "Here are our to dos and reading\nhomework week 1\nLet’s start it together.\nIf you can read chapters 1 and 2 before Thursday."
+    "text": "Here are our to dos and reading\nhomework week 1\nLet’s start it together.\nRead chapters 1 and 2 before Thursday."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Lectures from MTH CSI 106",
     "section": "",
-    "text": "These are the lectures from CSI 106, you can also find the direct links via Canvas.\nIntroduction"
+    "text": "These are the lectures from CSI 106, you can also find the direct links via Canvas.\nLecture 1: Introduction\nLecture 2: Functions, Psuedocode, Pair Programming"
   }
 ]
